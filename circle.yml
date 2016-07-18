@@ -7,4 +7,7 @@ deployment:
     branch: master
     commands:
        - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject/SimpleCIDummyProject.xcworkspace"
-       - fab deploy
+       - ipa distribute:crashlytics
+          --crashlytics_path Crashlytics.framework
+          --api_token    "$CRASHLYTICS_API_KEY"
+          --build_secret "$CRASHLYTICS_SECRET"
