@@ -5,5 +5,5 @@ machine:
 deployment:
   beta_dev:
     branch: master
-     commands:
+    commands:
        - gym
