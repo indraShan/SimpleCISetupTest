@@ -6,4 +6,4 @@ deployment:
   beta_dev:
     branch: master
     commands:
-       - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject\SimpleCIDummyProject.xcworkspace"
+       - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject/SimpleCIDummyProject.xcworkspace"
