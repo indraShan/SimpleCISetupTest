@@ -21,6 +21,8 @@
 - (void)setUp {
     [super setUp];
     self.calculationHelper = [[StupidCalculationHelper alloc] init];
+    self.calculationHelper.number1 = 10;
+    self.calculationHelper.number2 = 12;
 }
 
 - (void)tearDown {
@@ -29,8 +31,7 @@
 }
 
 - (void)testExample {
-  NSInteger result = [self.calculationHelper add:10 into:12];
-  XCTAssertEqual(result, 22, @"StupidCalculationHelper add:into: is broken");
+  XCTAssertEqual(self.calculationHelper.result, 22, @"StupidCalculationHelper add:into: is broken");
 }
 
 - (void)testPerformanceExample {

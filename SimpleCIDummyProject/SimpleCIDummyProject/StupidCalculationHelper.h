@@ -10,6 +10,10 @@
 
 @interface StupidCalculationHelper : NSObject
 
-- (NSInteger)add:(NSInteger)number1 into:(NSInteger)number2;
+
+@property (nonatomic, assign, readwrite) NSInteger number1;
+@property (nonatomic, assign, readwrite) NSInteger number2;
+
+@property (nonatomic, assign, readonly) NSInteger result;
 
 @end
