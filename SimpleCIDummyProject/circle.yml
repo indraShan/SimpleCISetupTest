@@ -1,0 +1,9 @@
+machine:
+  environment:
+    GYM_CODE_SIGNING_IDENTITY: "iPhone Developer: Indrajit Shanbhag (GELD5KG9M9)"
+
+deployment:
+  beta_dev:
+    branch: master
+     commands:
+       - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject.xcworkspace"
