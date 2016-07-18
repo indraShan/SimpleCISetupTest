@@ -8,6 +8,6 @@ deployment:
     commands:
        - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject/SimpleCIDummyProject.xcworkspace"
        - ipa distribute:crashlytics
-          --crashlytics_path Crashlytics.framework
+          --crashlytics_path SimpleCIDummyProject/Pods/Crashlytics/iOS/Crashlytics.framework
           --api_token    "$CRASHLYTICS_API_KEY"
           --build_secret "$CRASHLYTICS_SECRET"
