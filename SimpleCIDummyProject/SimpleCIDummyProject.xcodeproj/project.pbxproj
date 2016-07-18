@@ -154,6 +154,7 @@
 				A50D19041D3CD7C700912EB7 /* Resources */,
 				1A425696E0DCF52E94E1CA23 /* Embed Pods Frameworks */,
 				62442551529E1B638B331BC1 /* Copy Pods Resources */,
+				A50D19321D3D085B00912EB7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -270,6 +271,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCIDummyProject/Pods-SimpleCIDummyProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A50D19321D3D085B00912EB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" c20f32c0228140c08c1fed9e6da95bf300a8afe7 1e90d7069bec29255c9898c15d45d5ed397e46730c2a4318f3854cac09688c76";
 		};
 		B113CE037540C58018FC21E1 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
