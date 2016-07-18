@@ -30,12 +30,9 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    # match(type: "appstore") # more information: https://codesigning.guide
-    gym(scheme: "SimpleCIDummyProject") # Build your app - more options available
-    pilot
-
-    # sh "your_script.sh"
-    # You can also use other beta testing services here (run `fastlane actions`)
+sigh
+gym
+crashlytics
   end
 
   desc "Deploy a new version to the App Store"
@@ -64,14 +61,6 @@ platform :ios do
     # )
   end
 end
-
-lane :beta do
-  sigh
-  gym
-  
-  crashlytics
-end
-
 
 # More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
 # All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
