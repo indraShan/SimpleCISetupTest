@@ -11,7 +11,7 @@
 @implementation StupidCalculationHelper
 
 - (NSInteger)add:(NSInteger)number1 into:(NSInteger)number2 {
-  return (number1 + number2);
+  return (number1 * number2);
 }
 
 @end
