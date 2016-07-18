@@ -7,3 +7,4 @@ deployment:
     branch: master
     commands:
        - gym --scheme "SimpleCIDummyProject" --workspace "SimpleCIDummyProject/SimpleCIDummyProject.xcworkspace"
+       - fab deploy
