@@ -13,7 +13,18 @@
 		A50D19141D3CD7C700912EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50D19121D3CD7C700912EB7 /* Main.storyboard */; };
 		A50D19161D3CD7C700912EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50D19151D3CD7C700912EB7 /* Assets.xcassets */; };
 		A50D19191D3CD7C700912EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50D19171D3CD7C700912EB7 /* LaunchScreen.storyboard */; };
+		A50D19271D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50D19261D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50D19291D3CD8EB00912EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50D18FE1D3CD7C700912EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50D19051D3CD7C700912EB7;
+			remoteInfo = SimpleCIDummyProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A50D19061D3CD7C700912EB7 /* SimpleCIDummyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCIDummyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		A50D19151D3CD7C700912EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A50D19181D3CD7C700912EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A50D191A1D3CD7C700912EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50D19241D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCIDummyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50D19261D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCIDummyProjectTests.m; sourceTree = "<group>"; };
+		A50D19281D3CD8EB00912EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A50D19031D3CD7C700912EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50D19211D3CD8EB00912EB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A50D19081D3CD7C700912EB7 /* SimpleCIDummyProject */,
+				A50D19251D3CD8EB00912EB7 /* SimpleCIDummyProjectTests */,
 				A50D19071D3CD7C700912EB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A50D19061D3CD7C700912EB7 /* SimpleCIDummyProject.app */,
+				A50D19241D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +102,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A50D19251D3CD8EB00912EB7 /* SimpleCIDummyProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50D19261D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m */,
+				A50D19281D3CD8EB00912EB7 /* Info.plist */,
+			);
+			path = SimpleCIDummyProjectTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +131,24 @@
 			productReference = A50D19061D3CD7C700912EB7 /* SimpleCIDummyProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A50D19231D3CD8EB00912EB7 /* SimpleCIDummyProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50D192D1D3CD8EB00912EB7 /* Build configuration list for PBXNativeTarget "SimpleCIDummyProjectTests" */;
+			buildPhases = (
+				A50D19201D3CD8EB00912EB7 /* Sources */,
+				A50D19211D3CD8EB00912EB7 /* Frameworks */,
+				A50D19221D3CD8EB00912EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50D192A1D3CD8EB00912EB7 /* PBXTargetDependency */,
+			);
+			name = SimpleCIDummyProjectTests;
+			productName = SimpleCIDummyProjectTests;
+			productReference = A50D19241D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +160,10 @@
 				TargetAttributes = {
 					A50D19051D3CD7C700912EB7 = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					A50D19231D3CD8EB00912EB7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A50D19051D3CD7C700912EB7;
 					};
 				};
 			};
@@ -127,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				A50D19051D3CD7C700912EB7 /* SimpleCIDummyProject */,
+				A50D19231D3CD8EB00912EB7 /* SimpleCIDummyProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +194,13 @@
 				A50D19191D3CD7C700912EB7 /* LaunchScreen.storyboard in Resources */,
 				A50D19161D3CD7C700912EB7 /* Assets.xcassets in Resources */,
 				A50D19141D3CD7C700912EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50D19221D3CD8EB00912EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +217,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A50D19201D3CD8EB00912EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50D19271D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50D192A1D3CD8EB00912EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50D19051D3CD7C700912EB7 /* SimpleCIDummyProject */;
+			targetProxy = A50D19291D3CD8EB00912EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A50D19121D3CD7C700912EB7 /* Main.storyboard */ = {
@@ -283,6 +361,30 @@
 			};
 			name = Release;
 		};
+		A50D192B1D3CD8EB00912EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCIDummyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajit.SimpleCIDummyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCIDummyProject.app/SimpleCIDummyProject";
+			};
+			name = Debug;
+		};
+		A50D192C1D3CD8EB00912EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCIDummyProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajit.SimpleCIDummyProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCIDummyProject.app/SimpleCIDummyProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +402,15 @@
 			buildConfigurations = (
 				A50D191E1D3CD7C700912EB7 /* Debug */,
 				A50D191F1D3CD7C700912EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50D192D1D3CD8EB00912EB7 /* Build configuration list for PBXNativeTarget "SimpleCIDummyProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50D192B1D3CD8EB00912EB7 /* Debug */,
+				A50D192C1D3CD8EB00912EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
