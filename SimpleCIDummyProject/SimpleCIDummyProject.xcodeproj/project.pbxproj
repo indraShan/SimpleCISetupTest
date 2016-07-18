@@ -14,6 +14,8 @@
 		A50D19161D3CD7C700912EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50D19151D3CD7C700912EB7 /* Assets.xcassets */; };
 		A50D19191D3CD7C700912EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50D19171D3CD7C700912EB7 /* LaunchScreen.storyboard */; };
 		A50D19271D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50D19261D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m */; };
+		A50D19301D3CDA7500912EB7 /* StupidCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A50D192F1D3CDA7500912EB7 /* StupidCalculationHelper.m */; };
+		A50D19311D3CDA7B00912EB7 /* StupidCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A50D192F1D3CDA7500912EB7 /* StupidCalculationHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		A50D19241D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCIDummyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50D19261D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCIDummyProjectTests.m; sourceTree = "<group>"; };
 		A50D19281D3CD8EB00912EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50D192E1D3CDA7500912EB7 /* StupidCalculationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StupidCalculationHelper.h; sourceTree = "<group>"; };
+		A50D192F1D3CDA7500912EB7 /* StupidCalculationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StupidCalculationHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				A50D19171D3CD7C700912EB7 /* LaunchScreen.storyboard */,
 				A50D191A1D3CD7C700912EB7 /* Info.plist */,
 				A50D19091D3CD7C700912EB7 /* Supporting Files */,
+				A50D192E1D3CDA7500912EB7 /* StupidCalculationHelper.h */,
+				A50D192F1D3CDA7500912EB7 /* StupidCalculationHelper.m */,
 			);
 			path = SimpleCIDummyProject;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50D19301D3CDA7500912EB7 /* StupidCalculationHelper.m in Sources */,
 				A50D19111D3CD7C700912EB7 /* ViewController.m in Sources */,
 				A50D190E1D3CD7C700912EB7 /* AppDelegate.m in Sources */,
 				A50D190B1D3CD7C700912EB7 /* main.m in Sources */,
@@ -221,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50D19311D3CDA7B00912EB7 /* StupidCalculationHelper.m in Sources */,
 				A50D19271D3CD8EB00912EB7 /* SimpleCIDummyProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

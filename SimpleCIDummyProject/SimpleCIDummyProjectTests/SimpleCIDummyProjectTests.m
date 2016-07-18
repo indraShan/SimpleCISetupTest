@@ -8,7 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
+#import "StupidCalculationHelper.h"
+
 @interface SimpleCIDummyProjectTests : XCTestCase
+
+@property (strong, nonatomic) StupidCalculationHelper *calculationHelper;
 
 @end
 
@@ -16,7 +20,7 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.calculationHelper = [[StupidCalculationHelper alloc] init];
 }
 
 - (void)tearDown {
@@ -25,8 +29,8 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+  NSInteger result = [self.calculationHelper add:10 into:12];
+  XCTAssertEqual(result, 22, @"StupidCalculationHelper add:into: is broken");
 }
 
 - (void)testPerformanceExample {
